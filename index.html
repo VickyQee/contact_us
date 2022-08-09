@@ -1,59 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Contact Me</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-
-<h1>My contact details</h1>
-
-
-
-
-<form>
-    <fieldset>  
-    <legend> User Personal Information</legend>
-   
-    
-    
-    <br>
-    <legend>My Address</legend>
-    <input type="text" placeholder="enter address">
-    <br>
-    <br>
-    <legend>Mobile Number</legend>
-    <input type="text"placeholder="enter mobile number">
-    <br>
-    <br>
-    <legend>Email Address</legend>
-    <input type="text" placeholder="enter email">
-    <br>
-    <br>
-    <legend>Full name</legend>
-    <input type="text"placeholder="enter full name">
-    <br>
-    <p>   <a href="https://www.instagram.com">Instagram</a> </p>
-    
-    <form action="mail to:gmail.com">Send to email address</form>
-    <div>
+    <div class="container">
+        <span class="big-circle"></span>
+        <img src="img/shape.png" class="square" alt="">
+        <div class="form">
+            <div class="contact-info">
+                <h3>Let's get in touch</h3>
+                <p class="text">
+                   We are a Real Estate/ Tech Company that offer services in website development,
+                   graphics design and Digital Marketing!
+                </p>
+                <div class="info">
+                    <div class="information">
+                        <img src="img/location.png" class="icon" alt="">
+                        <p>Hub 30, 204 road, festac town lagos</p>
+                    </div>
+                    <div class="information">
+                        <img src="img/email.png" class="icon" alt="">
+                        <p>dessenseenterprises@gmail.com</p>
+                    </div>
+                    <div class="information">
+                        <img src="img/phone.png" class="icon" alt="">
+                        <p>+234-708-962-7576</p>
+                    </div>
+                    <div class="social-media">
+                        <p>Contact with us :</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/deeglobalweb">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.twitter.com/deemusicblog">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/deeconcepts">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/victoria-chidinma-chukwu-0388a9116/">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="index.html">
+                    <h3 class="title">Contact us</h3>
+                    <div class="input-container">
+                        <label for="">Username</label>
+                        <input type="text" name="name" class="input">
+                    </div>
+                    <div class="input-container"> 
+                        <label for="">Email</label>
+                        <input type="email" name="email" class="input">
+                       
+                    </div>
+                    <div class="input-container">
+                        <label for="">Phone</label>
+                        <input type="tel" name="phone" class="input">
+                    </div>
+                    <div class="input-container textarea">
+                        <label for="">Message</label>
+                        <textarea name="message"   class="input"></textarea>
+                    </div>
+                    <input type="submit" value="Send" class="btn"/>
+                </form>
+            </div>
+        </div>
     </div>
-    <div>
-        <label for = "Type your Message">Message</label> 
-        <br>
-        <textarea name "comment" id = "remark"cols = "20" rows = "8" placeholder "Tell us how we can improve..."></textarea><br/>
-    </div>
-    <div>
-        <button>Submit</button>
-    </div>
-    
-</fieldset>
-<div>
-    <a href="https://www.wikipedia.org/">LinkedIn</a>
-    <a href="https://www.youtube.com/">Twitter</a>
-    
-    <p>© 2018 Victoria chukwu.</p>
-  </div>
-</form>
-
+    <script src="https://kit.fontawesome.com/1aa8b8aa37.js" crossorigin="anonymous"></script>
 </body>
 </html>
